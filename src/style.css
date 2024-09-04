@@ -94,6 +94,14 @@ main {
   color: #fff;
   background-color: var(--primary-black);
   padding: 2.4rem 4rem;
+  border: 3px solid transparent;
+  transition: all 0.3s;
+}
+
+.info a:hover {
+  background-color: #fff;
+  color: var(--primary-black);
+  border: 3px solid var(--primary-black);
 }
 
 /* Footer */
@@ -112,6 +120,11 @@ main {
 .page-footer a {
   color: var(--tertiary-gray);
   font-weight: bold;
+  transition: all 0.3s;
+}
+
+.page-footer a:hover {
+  color: var(--primary-black);
 }
 
 /* Media queries */
@@ -164,7 +177,7 @@ main {
   }
 
   .img-container {
-    width: 90%;
+    width: 80%;
     max-width: 450px;
   }
 
