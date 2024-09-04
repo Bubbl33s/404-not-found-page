@@ -1,0 +1,116 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+
+/* General */
+:root {
+  --primary-black: #333;
+  --primary-gray: #4f4f4f;
+  --secondary-gray: #cacbca;
+  --tertiary-gray: #bfbfbf;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 62.5%;
+  font-family: "Space Mono", sans-serif;
+  font-weight: 500;
+  color: var(--primary-black);
+}
+
+/* Main container */
+.main-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Header */
+.page-header {
+  font-family: Inconsolata, monospace;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  font-size: 1.8rem;
+  font-weight: bold;
+  letter-spacing: -0.2rem;
+  padding-left: 60px;
+}
+
+/* Main */
+main {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8%;
+  width: 90%;
+  max-width: 1500px;
+}
+
+/* Scarecrow image */
+.img-container {
+  width: 50%;
+}
+
+.scarecrow-img {
+  width: 100%;
+}
+
+/* Info */
+
+.info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 5rem;
+  width: 50%;
+}
+
+.info h1 {
+  font-size: 6.4rem;
+  font-weight: bold;
+  max-width: 600px;
+}
+
+.info p {
+  font-size: 2.4rem;
+  max-width: 400px;
+  margin-top: -1rem;
+}
+
+.info a {
+  font-size: 1.4rem;
+  text-decoration: none;
+  font-weight: bold;
+  color: #fff;
+  background-color: var(--primary-black);
+  padding: 2.4rem 4rem;
+}
+
+/* Footer */
+.page-footer {
+  font-family: "Open Sans", sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 6vh;
+  width: 100%;
+  font-size: 1.4rem;
+  color: var(--secondary-gray);
+}
+
+.page-footer a {
+  color: var(--tertiary-gray);
+  font-weight: bold;
+}
+
+/* Media queries */
