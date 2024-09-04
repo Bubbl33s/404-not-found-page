@@ -67,13 +67,13 @@ Practicing responsiveness, especially regarding font sizes, is something I still
 
 ### Useful resources
 
-- [Color Picker](https://snapcraft.io/color-picker) - Me sirvió para obtener de una forma más aproximada los colores que no fueron proporcionados.
-- [Google Fonts](https://fonts.google.com/) - Me proporcionó la fuente principal usada en el proyecto.
-- [Optimizilla](https://imagecompressor.com/) - Para optimizar las screenshots.
+- [Color Picker](https://snapcraft.io/color-picker) - It helped me to get a more accurate representation of the colors that were not provided.
+- [Google Fonts](https://fonts.google.com/) - It provided the main font used in the project.
+- [Optimizilla](https://imagecompressor.com/) - To optimize the screenshots.
 
 ## Author
 
-Valeria Lozano - a.k.a. Bubbl33s
+Valeria Lozano _a.k.a._ **Bubbl33s**
 
 - [GitHub](https://www.your-site.com)
 - [Codepen](https://codepen.io/Bubbl33s)
